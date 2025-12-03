@@ -10,6 +10,12 @@
 
 }
 
+body{
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+}
+
 
 .logo {
   height: 6em;

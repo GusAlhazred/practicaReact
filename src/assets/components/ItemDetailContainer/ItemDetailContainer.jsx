@@ -9,7 +9,7 @@ export const ItemDetailContainer = () => {
     const {id} = useParams();
 
     useEffect(() => {
-        fetch("/data/productos.json").then((res) => {
+        fetch("https://6900bc5cff8d792314bb3953.mockapi.io/products").then((res) => {
           if (!res.ok)
             throw new Error("Chorld!")
           return res.json()

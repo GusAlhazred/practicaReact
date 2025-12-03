@@ -19,8 +19,9 @@ export const Nav = () => {
                     <Link to={"/categories/salado"} className="v">Salado</Link>
                 </li>
                 <li>
-                    <Link to={"/carrito"} className="v">Carrito</Link>
-                    {(getTotalItems()>0) && (<span className="nroCarrito">{getTotalItems()}</span>)}
+                    <Link to={"/carrito"} className="v">Carrito</Link>                    
+                    {//Para mostrar el numerito si tiene mas items
+                    (getTotalItems()>0) && (<span className="nroCarrito">{getTotalItems()}</span>)}
                     
                 </li>
             </ul>
