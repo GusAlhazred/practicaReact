@@ -11,7 +11,7 @@ import { ItemDetailContainer } from "./assets/components/ItemDetailContainer/Ite
 import { CartProvider } from './context/cartContext/CartProvider'
 import { Cart } from "./assets/components/Cart/Cart"
 import { ProductFormContainer } from './AdminComponents/ProductFormContainer/ProductFormContainer'
-import { MainLayout } from './layout/mainLayout'
+import { MainLayout } from './layout/MainLayout'
 import { AdminLayout } from './layout/AdminLayout'
 import { RutaProtegida } from './assets/components/RutaProtegida/RutaProtegida'
 import { Login } from './assets/components/Login/Login'
